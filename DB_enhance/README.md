@@ -1,0 +1,11 @@
+# Hewitt Database Update and Enhancement
+
+Our client, Hewitt Research Foundation, has been running their npo from an antiquated database management system built in the 1980's called Paradox.  They were using Paradox not only as their interface and repository for holding and organizing their customer information, but also as a customer relations manager and a means for printing the scantrons that are used for their testing programs.  This project will entail fully converting Hewitt's data from Paradox to a contemporary, robust system.  We have chosen MySQL as the system that we will transition them to.  After converting the Paradox data files to MySQL, we will need to create new and improved scripts and functions that will enable Hewitt to access and manipulate their customer data in a much more practical, efficient and user-friendly manner.  The new system will need to properly normalize their data tables, account for a variety of necessary queries, and provide the new functionality of allowing Hewitt to print student information onto Scantron bubbles.  As our team has fine-tuned the vision for this project, we have also decided to streamline Hewitt's current website into a system that is connected with the MySQL database which will provide additional ease of access and business productivity.
+
+## DesktopAPP
+
+A directory containing the files and code for our Desktop application that we compiled for Hewitt to allow them to run the scripts that they need for printing student tests, printing little organizational labels and importing test result data into their database.  This will include an simple menu that will give Hewitt 3 initial options: print scantrons, print labels and import test results.  Once they've clicked on a button, the application will guide them through performing the necessary script on the system.  Including in this directory is the code files for the printing scripts and the CSV import script.
+
+## DB_normalize
+
+This directory chronicles the process we undertook in migrating Hewitt's database out of Paradox and then normalizing it.  From adding foreign keys, to conforming their table and attribute names to modern conventions, to adding indices and views, we completely transformed Hewitt's database and this directory provides the documentation involved in that process.

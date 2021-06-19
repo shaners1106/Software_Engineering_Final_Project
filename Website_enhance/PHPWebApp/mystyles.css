@@ -1,0 +1,383 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html,
+html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+
+header {
+    padding: 32px;
+    
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height:auto;
+    vertical-align: middle;
+}
+
+footer{
+    padding: 200px 30px;
+    /*background-color:#dbecf1;*/
+    
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: url("images/grad.png");   
+ 
+    
+    
+    background-repeat: no-repeat;
+    
+    		background-position: top;
+    		background-attachment: fixed;
+  		background-size:cover;
+		
+    
+}
+
+
+
+.style-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 350px;
+}
+
+.style-nav ul {
+    list-style-type: none;
+    
+}
+
+.style-nav ul li a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    padding: 8px;
+    
+}
+
+
+.hero{
+   background-image: url("images/guyfinal3.gif");
+   
+    background-repeat: no-repeat;
+    		background-position: center;
+    background-size: contain;
+   
+    padding: 400px 20px 50px 20px;
+    /*color: #FFFFFF;*/
+    text-align: center;
+            
+}
+
+h1 {
+    font-size:57px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size:20px;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 200;
+    margin-bottom: 23px;
+}
+h3 {
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+h4 {
+    font-size:16px;  
+    font-weight: 200;
+    margin-bottom: 35px;
+}
+
+p{
+  font-size:16px;  
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #b1b1b1;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #4f0303;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.button {
+    border: 2px #dbb707;
+   background-color: #3C6F72;
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    
+    text-decoration: none;
+}
+
+
+.button:hover {background-color: #dbb707;}
+
+.info-box-tan{
+    background-color: #b9a88e;
+    color: #FFFFFF;
+    padding: 30px 20px 60px;
+    text-align: center;
+}
+
+.info-box-dark{
+    background-color: #2d2d35;
+    color: #FFFFFF;
+    padding: 30px 20px 60px;
+    text-align: center;
+}
+
+.row:before, .row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear:both;
+}
+
+.footer-text{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.col{
+        width: 100%;
+        text-align: center
+        
+    }
+
+    label {
+        display: inline-block;
+        float: left;
+        clear: left;
+        width: 250px;
+        font-weight:400;
+        font-size: medium;
+        text-align: left;
+    }
+    input {
+      display: inline-block;
+      float: left;
+    }
+
+table {
+        border-collapse: collapse;
+        padding: 25%;
+        margin: 25px 0;
+        font-size: 0.2em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+  
+    thead tr, th {
+        
+        color: #dbb707;
+        text-align: center;
+        padding: 5px 15px;
+    }
+ 
+
+    td {
+        padding: 5px 15px;
+        text-align: center;
+    }
+
+
+/* Dropdown Button */
+.dropbtn {
+ text-decoration: none;
+    color: gray;
+    text-align: center;
+   
+    text-transform: uppercase;
+
+    font-size: 12pt;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+    background-color:gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #532F64;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3C6F72;}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+    color:gray;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid gray; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  max-width: 400px;
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: gray;
+  color:black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:#3C6F72;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  
+  padding: 20px;
+ 
+}
+
+/*Tablet View*/
+@media (min-width:768px){
+    
+
+    
+    body{
+    max-width: 778px;
+}
+    
+    .style-nav ul li{
+        display: inline-block;
+    }
+    
+    .style-nav ul{
+        text-align: center;
+    }
+    
+    h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .col-md-one-half{
+        width: 50%;
+   
+    }
+    
+    .col{
+        float:left;
+        padding: 0px 7px 14px;
+    }
+
+}
+
+
+/*Desktop View*/
+@media (min-width:1024px){
+    
+    body{
+        max-width: 1200px;
+    }
+    
+    .style-logo {
+    float: left
+}
+    .style-nav{
+        float: right;
+    }
+    .col-lg-one-fourth{
+        width:25%;
+    }
+    
+    .style-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 650px;
+}
+    
+}
